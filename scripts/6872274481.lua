@@ -550,7 +550,7 @@ local function getBedNear(max)
 end
 
 -- // combat window
-do 
+--[[do 
     local aura = {["Enabled"] = false}
     local auraswing = {["Enabled"] = false}
     local auraswingsound = {["Enabled"] = false}    
@@ -609,7 +609,7 @@ do
         ["Default"] = 14
     })
 
-end
+end--]]
 
 do 
     local veloh, velov = {["Value"] = 0},{["Value"] = 0}
